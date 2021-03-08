@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 50px 0;
+}
+
+.card-container {
+  display: flex;
+  margin: 0 10px;
+  position: relative;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 336px;
+  height: 420px;
+  box-shadow: 0 2px 4px rgb(189, 169, 169);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #eee;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .card:nth-child(1) {
+  left: 20%;
+  z-index: 1;
+}
+
+.card:nth-child(2) {
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.card:nth-child(3) {
+  right: 20%;
+  z-index: 2;
+} */
